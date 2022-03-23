@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "71-Yy6rdyc-DL-SL1500.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "71-Yy6rdyc-DL-SL1500-1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "71-Yy6rdyc-DL-SL1500-2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
