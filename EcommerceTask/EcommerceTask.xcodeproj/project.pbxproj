@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1590BB1B27EAEFD500FF5655 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590BB1A27EAEFD500FF5655 /* WebServices.swift */; };
+		1590BB1D27EAF06600FF5655 /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590BB1C27EAF06600FF5655 /* DataModal.swift */; };
 		762A29D627EABD840098B918 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A29D527EABD840098B918 /* ProductViewCell.swift */; };
 		762EBCB927EA9DA400D053F8 /* BannerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762EBCB827EA9DA400D053F8 /* BannerViewCell.swift */; };
 		76685ABD27EA8B5A00E99B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76685ABC27EA8B5A00E99B3D /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1590BB1A27EAEFD500FF5655 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		1590BB1C27EAF06600FF5655 /* DataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
 		762A29D527EABD840098B918 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
 		762EBCB827EA9DA400D053F8 /* BannerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewCell.swift; sourceTree = "<group>"; };
 		76685AB927EA8B5A00E99B3D /* EcommerceTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1590BB1727EAEF9F00FF5655 /* Modal  */ = {
+			isa = PBXGroup;
+			children = (
+				1590BB1A27EAEFD500FF5655 /* WebServices.swift */,
+				1590BB1C27EAF06600FF5655 /* DataModal.swift */,
+			);
+			path = "Modal ";
+			sourceTree = "<group>";
+		};
 		76685AB027EA8B5A00E99B3D = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +77,7 @@
 			children = (
 				76685ABC27EA8B5A00E99B3D /* AppDelegate.swift */,
 				76685ABE27EA8B5A00E99B3D /* SceneDelegate.swift */,
+				1590BB1727EAEF9F00FF5655 /* Modal  */,
 				76CEF2B527EA917800501608 /* Controller */,
 				76685AD027EA8B6E00E99B3D /* View */,
 				76685AC527EA8B5C00E99B3D /* Assets.xcassets */,
@@ -164,10 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				76685AC127EA8B5A00E99B3D /* ViewController.swift in Sources */,
+				1590BB1D27EAF06600FF5655 /* DataModal.swift in Sources */,
 				76685ABD27EA8B5A00E99B3D /* AppDelegate.swift in Sources */,
 				762A29D627EABD840098B918 /* ProductViewCell.swift in Sources */,
 				762EBCB927EA9DA400D053F8 /* BannerViewCell.swift in Sources */,
 				76CEF2B427EA900A00501608 /* CategoryViewCell.swift in Sources */,
+				1590BB1B27EAEFD500FF5655 /* WebServices.swift in Sources */,
 				76685ABF27EA8B5A00E99B3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

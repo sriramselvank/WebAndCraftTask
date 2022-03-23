@@ -9,8 +9,5 @@
 import UIKit
 
 class CategoryViewCell: UICollectionViewCell {
-    
-   
-    
     @IBOutlet weak var categoryImage: UIImageView!
 }
